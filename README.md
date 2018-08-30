@@ -19,6 +19,7 @@ A pipeline to identify A-to-I RNA editing sites using RNA-seq data.
 12. Filter only A-to-I editing sites (AtoIFilter.sh).
 13. Separate variants in Alu and non-Alu regions (alufilter.sh).
 14. For in Alu variants, directly annotate to UCSC's knownGene (knownGene.sh).
+
 --- The rest of the steps are meant for non Alu variants ---
 15. Remove simple repeats, annotation from UCSC's RepeatMasker (bedfilter.sh).
 16. Remove variants in homopolymer regions (homopolymer.sh).
