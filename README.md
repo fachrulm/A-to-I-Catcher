@@ -25,8 +25,7 @@ This method was adapted from [this paper](https://www.nature.com/articles/nmeth.
 13. Separate variants in Alu and non-Alu regions (_alufilter.sh_).
 14. For in Alu variants, directly annotate to UCSC's knownGene (_knownGene.sh_).
 
---- The rest of the steps are meant for non Alu variants ---
-
+> The rest of the steps are meant for non Alu variants.
 15. Remove simple repeats, annotation from UCSC's RepeatMasker (_bedfilter.sh_).
 16. Remove variants in homopolymer regions (_homopolymer.sh_).
 17. Ensure unique mapping using BLAT (_BLAT.sh_).
